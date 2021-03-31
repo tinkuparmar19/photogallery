@@ -28,7 +28,7 @@ function App() {
         hasMore={true}
         className='scroll'
       >
-        <div className='d-flex justify-content-around flex-wrap'>
+        <div className='d-flex justify-content-around align-items-center flex-wrap'>
           {
             result.length > 0 && result.map(item => {
               return <Gallery key={item.id} item={item} />
